@@ -1,0 +1,23 @@
+{
+    "name": "saimondev03/container",
+    "description": "This is a demo IoC, please do NOT use it in production",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Montoya Palacio",
+            "email": "simonmontoya19@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "mockery/mockery": "^0.9.4"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Saimondev03\\Container\\": "src/"
+        }
+    }
+}
